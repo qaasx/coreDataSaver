@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreDataSaver'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'CoreDataSaver - components for work with CoreData.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CoreDataSaver/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*'
   
   s.frameworks = 'Foundation'
   s.dependency 'MagicalRecord', '~> 2.3.2'
