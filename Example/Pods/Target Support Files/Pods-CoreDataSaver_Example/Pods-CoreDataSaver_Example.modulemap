@@ -1,0 +1,6 @@
+framework module Pods_CoreDataSaver_Example {
+  umbrella header "Pods-CoreDataSaver_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

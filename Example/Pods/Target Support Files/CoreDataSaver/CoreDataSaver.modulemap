@@ -1,0 +1,6 @@
+framework module CoreDataSaver {
+  umbrella header "CoreDataSaver-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - CoreDataSaver (0.1.0)
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - CoreDataSaver (from `../`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  CoreDataSaver:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreDataSaver: a922ea31109179272c083412d237cd7addb359be
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: aad84324dcb01da310f0b1363958916f6da4cc04
+
+COCOAPODS: 1.8.4

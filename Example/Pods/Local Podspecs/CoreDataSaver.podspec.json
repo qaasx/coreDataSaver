@@ -1,0 +1,22 @@
+{
+  "name": "CoreDataSaver",
+  "version": "0.1.0",
+  "summary": "A short description of CoreDataSaver.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Evgeny Ivanov/CoreDataSaver",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Evgeny Ivanov": "evgeny.ivanov.u@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Evgeny Ivanov/CoreDataSaver.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CoreDataSaver/Classes/**/*"
+}
