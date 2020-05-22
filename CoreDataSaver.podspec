@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
   s.source_files = 'CoreDataSaver/Classes/**/*'
   
   s.frameworks = 'Foundation'
-  s.dependency 'MagicalRecord', '~> 2.4.0'
+  s.dependency 'MagicalRecord', '~> 2.3.2'
 end
