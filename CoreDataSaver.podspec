@@ -30,11 +30,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CoreDataSaver/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CoreDataSaver' => ['CoreDataSaver/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
+  s.dependency 'MagicalRecord', '~> 2.4.0'
 end
