@@ -1,10 +1,5 @@
 # CoreDataSaver
 
-[![CI Status](https://img.shields.io/travis/Evgeny Ivanov/CoreDataSaver.svg?style=flat)](https://travis-ci.org/Evgeny Ivanov/CoreDataSaver)
-[![Version](https://img.shields.io/cocoapods/v/CoreDataSaver.svg?style=flat)](https://cocoapods.org/pods/CoreDataSaver)
-[![License](https://img.shields.io/cocoapods/l/CoreDataSaver.svg?style=flat)](https://cocoapods.org/pods/CoreDataSaver)
-[![Platform](https://img.shields.io/cocoapods/p/CoreDataSaver.svg?style=flat)](https://cocoapods.org/pods/CoreDataSaver)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -17,7 +12,7 @@ CoreDataSaver is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CoreDataSaver'
+pod 'CoreDataSaver', :git => 'https://github.com/qaasx/coreDataSaver.git'
 ```
 
 ## Author
