@@ -22,7 +22,7 @@ public typealias CoreDataSaverCompletionWithObjectIdsBlock = (_ objects: [String
         super.init()
         savingQueue.name = "CoreDataSaver_queue"
         savingQueue.maxConcurrentOperationCount = 1
-        savingQueue.qualityOfService = .utility
+        savingQueue.qualityOfService = .userInteractive
     }
     
     open func saveData(_ savingBlock: @escaping CoreDataSaverSavingBlock,
